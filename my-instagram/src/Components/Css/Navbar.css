@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.main{
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    height: 7vh;
+    background-color: #fafafa;  
+    max-width: 80vw;
+    margin: auto;
+}
+
+.navbar_logo{
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Grand Hotel', cursive;
+    cursor: pointer;
+}
+
+.navbar_logo:hover{
+    animation: logo_anime;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes logo_anime {
+    0%{
+        color: black;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: orangered;
+    }
+}
+
+.navbar_search{
+    margin: auto;
+}
+
+.navbar_search input{
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.navbar_search input::placeholder{
+    text-align: center;
+}
+
+.navbar_search input:focus {
+    outline: lightgray;
+    text-align: start;
+}
+
+.navbar_icons{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.navbar_icons .MuiSvgIcon-root{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar_icons .MuiSvgIcon-root:hover{
+    color: orangered;
+}
+
+.profile_menu{
+    position: absolute;
+    display: none;
+    background-color: #fafafa;
+    width: 220px;
+    border-radius: 10px;
+    margin-left: -12%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+    
+}
+
+.profile_menu li{
+   list-style: none;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+.profile_menu li:hover{
+    background-color: #f0ebeb;
+}
+
+.profile_menu li .MuiSvgIcon-root{
+    font-size: 20px;
+}
+
+
+.profile:hover .profile_menu{
+    display: block;
+}
+
+.explore{
+    transform: rotate(-30deg);
+}
+
+.profile_txt {
+    position: absolute;
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 3%;
+}

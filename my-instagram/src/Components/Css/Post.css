@@ -1,0 +1,159 @@
+.post{
+    width: 68vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.post_card{
+    flex: 0.8;
+    width: 61%;
+    border: 1px solid lightgray;
+    margin: 25px;
+}
+
+.post_header{
+    display: flex;
+}
+
+.post_title{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+}
+
+.post_title span{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.post_title span:hover{
+    text-decoration: underline;
+}
+
+
+.more_icon{
+    padding: 10px;
+}
+
+.more_icon .MuiSvgIcon-root, .post_title .MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+.post_body{
+    padding: 5px;
+}
+
+
+.post_body img{
+    max-width: 100%;
+    height: auto;
+    place-items: center;
+    object-fit: contain;
+}
+
+.post_footer{
+    display: flex;
+}
+
+.footer_left{
+    flex: 1;
+    display: flex;
+}
+
+.footer_left .MuiSvgIcon-root, .footer_right .MuiSvgIcon-root{
+    padding: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.footer_left .MuiSvgIcon-root:hover, .footer_right .MuiSvgIcon-root:hover{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+.footer_right{
+    padding: 5px;
+}
+
+.post_info{
+    padding-left: 10px;
+}
+
+.post_comment{
+    display: flex;
+    padding: 5px;
+    color: skyblue;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.post_comment:hover{
+    font-weight: 500;
+}
+
+.post_comment input{
+    width: 100%;
+    border: none;
+}
+
+.post_comment input:focus{
+    outline: none;
+}
+
+
+.more_menuItems{
+    display: none;
+    position: absolute;
+    width: 20vw;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-top: 1%;
+    z-index: 10;
+}
+
+.explore_menuItems{
+    visibility: hidden;;
+    width: 30vw;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-top: -18%;
+}
+
+.explore_menu:hover .explore_menuItems{
+    visibility: visible;
+}
+
+.more_menuItems li, .explore_menuItems li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.explore_menuItems hr{
+    color: lightgray;
+}
+
+.more_menuItems li:hover, .explore_menuItems li:hover{
+    background-color: #f0ebeb;
+}
+
+.danger{
+    color: #ed4956;
+}
+
+.more_icon:hover .more_menuItems, .explore_menuItems{
+    display: inline-block;
+}

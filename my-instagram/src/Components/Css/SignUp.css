@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.signup_container{
+    margin: auto;
+    width: 25vw;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup_container h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Grand Hotel', cursive;
+    color: rgba(0,0,0,0.8);
+    letter-spacing: 2px;
+}
+
+.signup_container h6{
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+}
+.signup_container .log_fb, .signup_container form button{
+    width: 80%;
+    background-color: #0095f6;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.signup_container .line{
+    padding: 10px;
+    width: 80%;
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.signup_container form{
+    display: block;
+    margin: 10px;
+}
+
+.signup_container form input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 4px;
+}
+
+.signup_container form input:focus{
+    outline: none;
+    border: 1px solid #bbb8b8;
+}
+
+.terms{
+    font-size: 12px;
+    color: gray;
+    width: 70%;
+    margin: auto;
+    place-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.terms span{
+    font-weight: 650;
+}
+
+.signup_footer{
+    margin: auto;
+    border: 1px solid lightgray;
+    width: 22vw;
+    margin-top: 10px;
+    padding: 21px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup_footer a{
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.app_store{
+    text-align: center;
+    width: 25vw;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log_fb .MuiSvgIcon-root{
+    font-size: 15px;
+    place-items: center;
+    padding-right: 5px;
+}
+
+.store img{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    object-fit: cover;
+    place-items: center;
+    cursor: pointer;
+}
+
+.playstore{
+    transform: scale(1.25);
+}

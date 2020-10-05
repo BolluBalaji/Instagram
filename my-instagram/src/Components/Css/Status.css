@@ -1,0 +1,41 @@
+.status{
+    width: 68vw;
+    display: flex;
+    margin: auto;
+}
+
+.status_container{
+    display: flex;
+    padding: 10px;
+    width: 59%;
+    border: 1px solid lightgray;
+    overflow-x: scroll;
+    margin: 25px;
+}
+
+.status_container::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+.status_container::-webkit-scrollbar-thumb{
+    color: green;
+}
+
+.status_item{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.status_item .MuiSvgIcon-root{
+    object-fit: contain;
+    border-radius: 100%;
+    border: 1px solid green;
+}
+
+.status_item span{
+    display: flex;
+    text-align: center;
+}

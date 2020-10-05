@@ -1,0 +1,73 @@
+.login_container{
+    margin: auto;
+    width: 25vw;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login_container h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Grand Hotel', cursive;
+    color: rgba(0,0,0,0.8);
+    letter-spacing: 2px;
+}
+
+.login_container form button{
+    width: 80%;
+    background-color: #0095f6;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.login_container form{
+    display: block;
+    margin: 10px;
+}
+
+.login_container form input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 4px;
+}
+
+.login_container form input:focus{
+    outline: none;
+    border: 1px solid #bbb8b8;
+}
+
+.login_container .log_fb{
+    margin: 10px;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.log_fb img{
+    width: 14px;
+    height: 14px;
+    padding-right: 4px;
+}
+
+.forgot{
+    font-size: 12px;
+    margin: 15px;
+    color: #00376b;
+}
+
+.details{
+    margin-bottom: 20px;
+}
